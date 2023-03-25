@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d874d3158d4baa8a7d2f5b18be42d8, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  ThrowSettings:
+    torqueMultiplier: 3
+    torqueDirection: {x: 0.3, y: -1, z: -1}
+    forceMultiplier: 80
+    forceDirection: {x: 1, y: 0.8, z: 1}
+  LevelPreset:
+    left:
+      baseMajor: {r: 1, g: 1, b: 1, a: 1}
+      baseMinor: {r: 0.24328054, g: 0.56861687, b: 0.7264151, a: 1}
+      accentMajor: {r: 0, g: 0.76249933, b: 1, a: 1}
+      accentMinor: {r: 1, g: 0.63624483, b: 0, a: 1}
+    center:
+      baseMajor: {r: 1, g: 1, b: 1, a: 1}
+      baseMinor: {r: 0.6603774, g: 0.17132434, b: 0.17132434, a: 1}
+      accentMajor: {r: 1, g: 0, b: 0, a: 1}
+      accentMinor: {r: 0, g: 1, b: 0.9083636, a: 1}
+    right:
+      baseMajor: {r: 1, g: 1, b: 1, a: 1}
+      baseMinor: {r: 0.39768788, g: 0.735849, b: 0.25338197, a: 1}
+      accentMajor: {r: 0, g: 1, b: 0.0323627, a: 1}
+      accentMinor: {r: 0.9699626, g: 0, b: 1, a: 1}
